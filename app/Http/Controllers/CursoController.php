@@ -25,6 +25,21 @@ class CursoController extends Controller
         $aula = Aula::find($id)->where('presenca', $presenca);
         return view('prof.editar.editarAula', compact('aula'));
     }
+    public function aula01(){
+        return view('playlistAula.aula1');
+    }
+    public function aula02(){
+        return view('playlistAula.aula2');
+    }
+    public function aula03(){
+        return view('playlistAula.aula3');
+    }
+    public function aula04(){
+        return view('playlistAula.aula4');
+    }
+    public function aula05(){
+        return view('playlistAula.aula5');
+    }
     public function storeAula(Request $request){
         $presenca = auth()->user()->name;
         //@dd($request->all());

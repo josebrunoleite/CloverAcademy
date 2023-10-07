@@ -111,7 +111,7 @@
                         </a>
                     </li>
                 </ul>
-                <ul class="nav nav-treeview" style="display: none;">
+                <ul class="nav nav-treeview" class="d-none" style="display: none;">
                     <li class="nav-item">
                         <a href="{{ route('Prova.create') }}" class="nav-link">
                             <i class="far fa-circle nav-icon"></i>
@@ -119,7 +119,7 @@
                         </a>
                     </li>
                 </ul>
-                <ul class="nav nav-treeview" style="display: none;">
+                <ul class="nav nav-treeview" style="display: none;" class="d-none">
                     <li class="nav-item">
                         <a href="{{ route('Aula.create') }}" class="nav-link">
                             <i class="far fa-circle nav-icon"></i>

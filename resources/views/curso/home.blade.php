@@ -124,7 +124,7 @@
                     {{--  @for ($i = 0; $i < 4; $i++) --}}
 
                     @foreach ($cursos as $curso)
-                        <div class="card shadow-sm" style="max-width: 20%; max-height: 20%; margin: 10px">
+                        <div class="card shadow-sm" style="max-width: 40%; max-height: 20%; margin: 10px">
                             <title>{{ $curso->nome }}</title>
                             <img src="{{ asset('curso/' . $curso->img) }}" alt=""
                                 style="max-width: 100%; max-height: 120px;">
@@ -133,7 +133,7 @@
                                 <h5 class="card-title">{{ $curso->nome }}.</h5>
                                 <p class="card-text">{{ $curso->duracio ?? 'sem descrição' }}</p>
                                 <div class="d-flex justify-content-between align-items-center">
-                                    <a href="{{route('aula.index')}}">
+                                    <a href="{{$curso->valor}}">
                                     <div class="btn-group">
                                         <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                                     </div>
@@ -143,31 +143,6 @@
                         </div>
                     @endforeach
                     {{-- #endfor --}}
-                </div>
-            </div>
-
-
-            <hr>
-
-            <div class="text-center">
-                <h1>Cursos Disponiveis</h1>
-            </div>
-            <div class="card-columns content">
-                <div class="row mb-4">
-                    @for ($i = 0; $i < 3; $i++)
-                    @foreach ($cursos as $curso)
-                        <div class="col-md-6">
-                            <div class="card">
-                                <img src="{{ asset('curso/' . $curso->img) }}" class="card-img-top" alt="Imagem do Curso">
-                                <div class="card-body">
-                                    <h5 class="card-title">{{ $curso->nome }}</h5>
-                                    <p class="card-text">{{ $curso->descricao }}</p>
-                                    <a href="#" class="btn btn-primary">Detalhes</a>
-                                </div>
-                            </div>
-                        </div>
-                    @endforeach
-                    @endfor
                 </div>
             </div>
         </div>

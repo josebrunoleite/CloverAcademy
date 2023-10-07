@@ -70,4 +70,10 @@ Route::middleware('auth')->group(function () {
     /* Pagamento */
     Route::get('carrinho', [\App\Http\Controllers\PagamentoController::class, 'homeCarrinho'])->name('carrinho.home');
     /* Pessoal */
+    Route::get('aula1', [\App\Http\Controllers\CursoController::class, 'aula01'])->name('aula1.index');
+    Route::get('aula2', [\App\Http\Controllers\CursoController::class, 'aula02'])->name('aula2.index');
+    Route::get('aula3', [\App\Http\Controllers\CursoController::class, 'aula03'])->name('aula3.index');
+    Route::get('aula4', [\App\Http\Controllers\CursoController::class, 'aula04'])->name('aula4.index');
+    Route::get('aula5', [\App\Http\Controllers\CursoController::class, 'aula05'])->name('aula5.index');
+
 });

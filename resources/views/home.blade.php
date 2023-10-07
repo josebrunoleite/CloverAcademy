@@ -30,7 +30,7 @@
                                     alt="" class="img-fluid">
                             </div>
                             <p>Venha conhecer a nossas loucuras e aprender a se torna pessoas uteis para sociedade! Bem
-                                vindo a escola Sulcelso!!!</p>
+                                vindo a escola {{ config('app.name', 'Laravel') }}</p>
                             <p class="fs-3">Não se esqueçam, que a resposta de qualquer pergunta é <strong> SL</strong>
                             </p>
                         </div>

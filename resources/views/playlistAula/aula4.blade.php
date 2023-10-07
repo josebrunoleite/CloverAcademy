@@ -60,17 +60,17 @@ function adicionarComentario() {
             
             <ul class="">
                 <h2>Aulas</h2>
-                <li><a href="aula?valor=https://www.youtube.com/embed/A1BaZr82XJI?si=ZKj3bZbpvm7GQt-9" id="alterarImagem">Aula 1 - Introdução</a></li>
-                <li><a href="aula?valor=https://www.youtube.com/embed/toH7eTXOKug" id="alterarImagem">Aula 2 - Music</a></li>
-                <li><a href="aula?valor=https://www.youtube.com/embed/nPEpaft1y1k?si=ZPj1JtxWmagb4WCQ" id="alterarImagem">Aula 3 - Programação Básica</a></li>
-                <li><a href="aula?valor=https://www.youtube.com/embed/SV7TL0hxmIQ?si=Y0SBxdhQKu6CJgsJ" id="alterarImagem">Aula 4 - Estruturas de Controle</a></li>
-                <li><a href="aula?valor=https://www.youtube.com/embed/0su3MyulVSo?si=NtKyvA--GHt430U_" id="alterarImagem">Aula 5 - Funções</a></li>
+                <li><a href="?valor=https://www.youtube.com/embed/vETPkwrDwQI?si=Zz6yBVNc1DQRvc-v-9" id="alterarImagem">Aula 1 - RACIOCÍNIO LÓGICO - PROPOSIÇÕES E TABELA VERDADE</a></li>
+                <li><a href="?valor=https://www.youtube.com/embed/i8jbzEWEOYk?si=MPkEJX0wgQStnzaW" id="alterarImagem">Aula 2 - LÓGICA: CONECTIVOS LÓGICOS</a></li>
+                <li><a href="?valor=https://www.youtube.com/embed/EmIGLGUO7cY?si=htZxlEzR32sF2Rlr" id="alterarImagem">Aula 3 - Decorando a tabela verdade com o Joselias. Raciocínio Lógico.</a></li>
+                <li><a href="?valor=https://www.youtube.com/embed/SV7TL0hxmIQ?si=Y0SBxdhQKu6CJgsJ" id="alterarImagem">Aula 4 - Estruturas de Controle</a></li>
+                <li><a href="?valor=https://www.youtube.com/embed/0su3MyulVSo?si=NtKyvA--GHt430U_" id="alterarImagem">Aula 5 - Funções</a></li>
             </ul>
         </div>
         <div class="content">
             <div class="container-fluid">
-            <h1>Aulas de Html e CSS em 5 minutos</h1>
-            <iframe width="800" height="450" class="img-fid" src="{{ $_GET['valor'] ?? 'https://www.youtube.com/embed/A1BaZr82XJI?si=ZKj3bZbpvm7GQt-9'}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <h1>Tebela Verdade</h1>
+            <iframe width="800" height="450" class="img-fid" src="{{ $_GET['valor'] ?? 'https://www.youtube.com/embed/vETPkwrDwQI?si=Zz6yBVNc1DQRvc-v-9'}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <div class="comments">
                 <h3>Comentários</h3>
                 <div class="comment-form">
@@ -78,7 +78,6 @@ function adicionarComentario() {
                     <button onclick="adicionarComentario()">Adicionar Comentário</button>
                 </div>
                 <ul class="comments">
-                    <li class="comment">josebrunoleite: Excelente</li>
 
                 </ul>
             </div>

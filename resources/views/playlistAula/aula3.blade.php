@@ -60,17 +60,16 @@ function adicionarComentario() {
             
             <ul class="">
                 <h2>Aulas</h2>
-                <li><a href="aula?valor=https://www.youtube.com/embed/A1BaZr82XJI?si=ZKj3bZbpvm7GQt-9" id="alterarImagem">Aula 1 - Introdução</a></li>
-                <li><a href="aula?valor=https://www.youtube.com/embed/toH7eTXOKug" id="alterarImagem">Aula 2 - Music</a></li>
-                <li><a href="aula?valor=https://www.youtube.com/embed/nPEpaft1y1k?si=ZPj1JtxWmagb4WCQ" id="alterarImagem">Aula 3 - Programação Básica</a></li>
-                <li><a href="aula?valor=https://www.youtube.com/embed/SV7TL0hxmIQ?si=Y0SBxdhQKu6CJgsJ" id="alterarImagem">Aula 4 - Estruturas de Controle</a></li>
-                <li><a href="aula?valor=https://www.youtube.com/embed/0su3MyulVSo?si=NtKyvA--GHt430U_" id="alterarImagem">Aula 5 - Funções</a></li>
+                <li><a href="?valor=https://www.youtube.com/embed/7a9ve2MEOWc?si=RF6EZxSbAlZ7d5RM" id="alterarImagem">Aula 1 - Raciocínio lógico para concursos Parte 1</a></li>
+                <li><a href="?valor=https://www.youtube.com/embed/2I6R8SS8-jk?si=VyTFe1zWmSu63yMS" id="alterarImagem">Aula 2 - Raciocínio lógico para concursos Parte 2</a></li>
+                <li><a href="?valor=https://www.youtube.com/embed/5mzr9DFnp2k?si=6xXlbi2OFxs1YnhT" id="alterarImagem">Aula 3 - Raciocínio lógico para concursos Parte 3</a></li>
+                <li><a href="?valor=https://www.youtube.com/embed/4qP1mCYxkoE?si=D9gw_43Ig5HY4T7R" id="alterarImagem">Aula 4 - Raciocínio lógico para concursos Parte 4</a></li>
             </ul>
         </div>
         <div class="content">
             <div class="container-fluid">
-            <h1>Aulas de Html e CSS em 5 minutos</h1>
-            <iframe width="800" height="450" class="img-fid" src="{{ $_GET['valor'] ?? 'https://www.youtube.com/embed/A1BaZr82XJI?si=ZKj3bZbpvm7GQt-9'}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <h1>Raciocínio lógico para concursos</h1>
+            <iframe width="800" height="450" class="img-fid" src="{{ $_GET['valor'] ?? 'https://www.youtube.com/embed/7a9ve2MEOWc?si=RF6EZxSbAlZ7d5RM'}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <div class="comments">
                 <h3>Comentários</h3>
                 <div class="comment-form">
@@ -78,7 +77,6 @@ function adicionarComentario() {
                     <button onclick="adicionarComentario()">Adicionar Comentário</button>
                 </div>
                 <ul class="comments">
-                    <li class="comment">josebrunoleite: Excelente</li>
 
                 </ul>
             </div>

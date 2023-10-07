@@ -60,11 +60,11 @@ function adicionarComentario() {
             
             <ul class="">
                 <h2>Aulas</h2>
-                <li><a href="aula?valor=https://www.youtube.com/embed/A1BaZr82XJI?si=ZKj3bZbpvm7GQt-9" id="alterarImagem">Aula 1 - Introdução</a></li>
-                <li><a href="aula?valor=https://www.youtube.com/embed/toH7eTXOKug" id="alterarImagem">Aula 2 - Music</a></li>
-                <li><a href="aula?valor=https://www.youtube.com/embed/nPEpaft1y1k?si=ZPj1JtxWmagb4WCQ" id="alterarImagem">Aula 3 - Programação Básica</a></li>
-                <li><a href="aula?valor=https://www.youtube.com/embed/SV7TL0hxmIQ?si=Y0SBxdhQKu6CJgsJ" id="alterarImagem">Aula 4 - Estruturas de Controle</a></li>
-                <li><a href="aula?valor=https://www.youtube.com/embed/0su3MyulVSo?si=NtKyvA--GHt430U_" id="alterarImagem">Aula 5 - Funções</a></li>
+                <li><a href="?valor=https://www.youtube.com/embed/A1BaZr82XJI?si=ZKj3bZbpvm7GQt-9" id="alterarImagem">Aula 1 - Introdução</a></li>
+                <li><a href="?valor=https://www.youtube.com/embed/toH7eTXOKug" id="alterarImagem">Aula 2 - Music</a></li>
+                <li><a href="?valor=https://www.youtube.com/embed/nPEpaft1y1k?si=ZPj1JtxWmagb4WCQ" id="alterarImagem">Aula 3 - Programação Básica</a></li>
+                <li><a href="?valor=https://www.youtube.com/embed/SV7TL0hxmIQ?si=Y0SBxdhQKu6CJgsJ" id="alterarImagem">Aula 4 - Estruturas de Controle</a></li>
+                <li><a href="?valor=https://www.youtube.com/embed/0su3MyulVSo?si=NtKyvA--GHt430U_" id="alterarImagem">Aula 5 - Funções</a></li>
             </ul>
         </div>
         <div class="content">
@@ -78,8 +78,8 @@ function adicionarComentario() {
                     <button onclick="adicionarComentario()">Adicionar Comentário</button>
                 </div>
                 <ul class="comments">
-                    <li class="comment">josebrunoleite: Excelente</li>
-
+                    <li class="comment">Fulano: Muito bom esse vídeo!</li>
+                    <li class="comment">Ciclano: Parabéns!</li>
                 </ul>
             </div>
             </div>

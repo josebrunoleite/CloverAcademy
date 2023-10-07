@@ -57,20 +57,18 @@ function adicionarComentario() {
 @section('content')
     <div class="container mobi d-flex justify-content-bebetween">
         <div class="sidebar" style="margin: 0 40px 0 0">
-            
             <ul class="">
                 <h2>Aulas</h2>
-                <li><a href="aula?valor=https://www.youtube.com/embed/A1BaZr82XJI?si=ZKj3bZbpvm7GQt-9" id="alterarImagem">Aula 1 - Introdução</a></li>
-                <li><a href="aula?valor=https://www.youtube.com/embed/toH7eTXOKug" id="alterarImagem">Aula 2 - Music</a></li>
-                <li><a href="aula?valor=https://www.youtube.com/embed/nPEpaft1y1k?si=ZPj1JtxWmagb4WCQ" id="alterarImagem">Aula 3 - Programação Básica</a></li>
-                <li><a href="aula?valor=https://www.youtube.com/embed/SV7TL0hxmIQ?si=Y0SBxdhQKu6CJgsJ" id="alterarImagem">Aula 4 - Estruturas de Controle</a></li>
-                <li><a href="aula?valor=https://www.youtube.com/embed/0su3MyulVSo?si=NtKyvA--GHt430U_" id="alterarImagem">Aula 5 - Funções</a></li>
+                <li><a href="?valor=https://www.youtube.com/embed/2g0o0lzQin8?si=s_Nd1eKwwE5suCtz" id="alterarImagem">Aula 1 - Introdução à Teoria dos Conjuntos</a></li>
+                <li><a href="?valor=https://www.youtube.com/embed/emJh9J0VnM8?si=y-T3akAiW2xZp4Rt" id="alterarImagem">Aula 2 - TEORIA DOS CONJUNTOS PARA CONCURSOS - Operações e Diagrama de Venn</a></li>
+                <li><a href="?valor=https://www.youtube.com/embed/ZZmPGJ6IRyU?si=BWOg59kXIt_1G_oN" id="alterarImagem">Aula 3 - CONJUNTOS | QUER QUE DESENHE | DESCOMPLICA</a></li>
             </ul>
         </div>
         <div class="content">
             <div class="container-fluid">
-            <h1>Aulas de Html e CSS em 5 minutos</h1>
-            <iframe width="800" height="450" class="img-fid" src="{{ $_GET['valor'] ?? 'https://www.youtube.com/embed/A1BaZr82XJI?si=ZKj3bZbpvm7GQt-9'}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <h1>Teoria dos Conjuntos</h1>
+            <iframe width="800" height="450" class="img-fid" src="{{ $_GET['valor'] ?? 'https://www.youtube.com/embed/2g0o0lzQin8?si=s_Nd1eKwwE5suCtz'}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <button type="button" class="btn mt-1 btn-dark">Favoritar</button>
             <div class="comments">
                 <h3>Comentários</h3>
                 <div class="comment-form">
@@ -78,8 +76,8 @@ function adicionarComentario() {
                     <button onclick="adicionarComentario()">Adicionar Comentário</button>
                 </div>
                 <ul class="comments">
-                    <li class="comment">josebrunoleite: Excelente</li>
-
+                    <li class="comment">Fulano: Muito bom esse vídeo!</li>
+                    <li class="comment">Ciclano: Parabéns!</li>
                 </ul>
             </div>
             </div>

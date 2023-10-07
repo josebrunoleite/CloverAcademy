@@ -23,8 +23,8 @@
                             <h5 class="card-title"></h5>
                                 {{-- Rato Roeu a Roupa do Rei de Roma --}}
                             <p class="card-text">
-                                <h2>Lista de Desejo</h2>
-                               <p>Você ainda não adicionou nada na sua lista de desejo</p>
+                                <h2>Aulas favoritas</h2>
+                               <p>Você ainda não adicionou nada na sua lista de aulas favoritas</p>
                 
                             </p>
                         </div>

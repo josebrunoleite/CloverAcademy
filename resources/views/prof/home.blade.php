@@ -23,7 +23,15 @@
     .mxter {
         margin: 0 auto;
     }
+    @media (max-width: 768px) {
+    .mobi {
+        display: flex;
+        flex-direction: column !important;
+    }
+    }
 </style>
+
+
 
 @section('content')
     <div>
@@ -36,7 +44,7 @@
                 </div>
                 <div class="align-content-end ">
                     
-                    <a href="{{route('Aula.create')}}" class="btn btn-info m-1">Criar Aula</a>
+                    <a href="{{route('Aula.create')}}" class="btn btn-info m-1">Criar Curso</a>
                     <a href="#" class="btn btn-danger m-1">Sair</a>
                 </div>
             </nav>
@@ -55,7 +63,7 @@
                         @foreach ($cursos as $curso)
                         <div class="card tamanho">
                             <div class="card-body">
-                                <div class="d-flex justify-content-around ">
+                                <div class="d-flex mobi justify-content-around ">
                                     <img src="{{ asset('curso/' . $curso->img) }}" style="width: 250px; height: 114px">
                                     <div>
                                         <p class="card-text">
